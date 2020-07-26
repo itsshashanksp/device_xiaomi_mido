@@ -187,6 +187,9 @@ service ppd /vendor/bin/mm-pp-dpps
     socket pps stream 0660 system system
     disabled
 
+on property:ro.config.low_ram=true
+    mount none /vendor/etc/permissions/go_handheld_core_hardware.xml /vendor/etc/permissions/handheld_core_hardware.xml bind
+
 # Vibrator
    chown system system /sys/class/leds/vibrator/vmax_mv_user
    chown system system /sys/class/leds/vibrator/vmax_mv_call
