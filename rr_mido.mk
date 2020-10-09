@@ -28,9 +28,7 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # RR official stuff
-ifneq ($(username),shashank)
 RR_BUILDTYPE := Official
-endif
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
