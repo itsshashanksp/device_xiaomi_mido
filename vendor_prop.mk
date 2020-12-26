@@ -207,15 +207,6 @@ wifi.interface=wlan0
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.wfd.virtual=0
 
-# USB debugging
-PRODUCT_PROPERTY_OVERRIDES += \
-persist.sys.usb.config=mtp,adb \
-ro.adb.secure=0 \
-ro.secure=0 \
-ro.debuggable=1
-
 # Netflix
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q660-13149-1
-
-
