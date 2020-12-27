@@ -1,0 +1,2 @@
+allow sysfs_leds sysfs_leds:dir { open  read  search };
+allow sysfs_leds sysfs_leds:file { getattr };
