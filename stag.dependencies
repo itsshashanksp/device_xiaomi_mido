@@ -1,6 +1,13 @@
 [
  {
-   "repository": "android_kernel_xiaomi_mido",
-   "target_path": "kernel/xiaomi/mido"
- }
+    "repository": "kernel_xiaomi_mido",
+    "target_path": "kernel/xiaomi/mido"
+    "remote": "shashank1436",
+    "branch": "r11"
+ },
+    "repository": "vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "remote": "shashank1436",
+    "branch": "r11"
+  }
 ]
