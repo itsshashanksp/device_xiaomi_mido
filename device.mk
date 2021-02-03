@@ -176,8 +176,8 @@ PRODUCT_PACKAGES += \
     libvulkan
 
 # Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiDoze
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
