@@ -27,6 +27,9 @@ $(call inherit-product, vendor/stag/main.mk)
 # StagOS build with gapps
 WITH_GAPPS := true
 
+# StagOS official device
+BUILD_TYPE := OFFICIAL
+
 # Mido bootanimation flag
 TARGET_SCREEN_RES := 1080
 
