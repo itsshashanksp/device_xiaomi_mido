@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common StagOS stuff.
 $(call inherit-product, vendor/stag/main.mk)
 
+# StagOS build with gapps
+WITH_GAPPS := true
+
 # Mido bootanimation flag
 TARGET_SCREEN_RES := 1080
 
