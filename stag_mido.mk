@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 $(call inherit-product, vendor/stag/main.mk)
 
 # StagOS build with gapps
-WITH_GAPPS := true
+# WITH_GAPPS := true
 
 # StagOS official device
 BUILD_TYPE := OFFICIAL
