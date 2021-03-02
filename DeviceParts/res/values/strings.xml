@@ -15,10 +15,10 @@
 -->
 <resources>
     <string name="app_name">Redmi Note 4</string>
-    <string name="advanced_settings">Device Features</string>
+    <string name="advanced_settings">Dirac sound</string>
 
     <!-- Dirac -->
-    <string name="audio_title">Audio</string>
+    <string name="audio_title">Dirac Settings</string>
 
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Sound Enhancer</string>
