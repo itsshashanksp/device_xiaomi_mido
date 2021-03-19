@@ -148,11 +148,6 @@ VENDOR_SECURITY_PATCH := 2020-11-05
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# We modify several neverallows, so let the build proceed
-ifneq ($(TARGET_BUILD_VARIANT),user)
-SELINUX_IGNORE_NEVERALLOWS := true
-endif
-
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /vendor/lib64/hw/gxfingerprint.default.so|fakelogprint.so \
