@@ -42,7 +42,12 @@ TARGET_SYSTEM_EXT_PROP := $(DEVICE_PATH)/system_ext.prop
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
 
+# hacks
 BUILD_BROKEN_DUP_RULES := true
+
+# Board
+PRODUCT_BOARD_PLATFORM := msm8953
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := mido_defconfig
