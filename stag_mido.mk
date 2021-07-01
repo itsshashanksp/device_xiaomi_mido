@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common StagOS stuff.
 $(call inherit-product, vendor/stag/main.mk)
 
+# Lawnchair
+-include vendor/prebuilt/packages/apps/Lawnchair/lawnchair.mk
+
 # Mido bootanimation flag
 TARGET_SCREEN_RES := 1080
 
