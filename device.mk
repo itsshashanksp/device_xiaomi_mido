@@ -439,3 +439,9 @@ PRODUCT_BOOT_JARS += \
 # GCam Go
 PRODUCT_PACKAGES += \
     GCam
+
+
+# Hacks
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
