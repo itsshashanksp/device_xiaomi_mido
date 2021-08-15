@@ -152,8 +152,7 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libcamshim \
     libmm-qcamera \
-    libui_shim \
-    libmm-qcamera
+    libui_shim
 
 # Component overrides
 PRODUCT_COPY_FILES += \
